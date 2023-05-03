@@ -1,0 +1,30 @@
+#include<stdio.h>
+    int main(){
+        int n,m,rows,p;
+        printf("enter your number:");
+        scanf("%d",&rows);
+        
+        for(n=1;n<=rows;n++){
+            for(m=1;m<=rows-n;m++){
+                printf(" ");
+            }
+            for(p=1;p<2*(n-1);p++){
+                printf("*");
+            }
+            // rows--;
+            printf("\n");
+        }
+         for(n=rows;n>=1;n--){
+            for(m=1;m<=rows-n;m++){
+                printf(" ");
+            }
+            for(p=n;p<2*(n-1);p++){
+                printf("*");
+            }
+            for(p=1;p<=n-1;p++){
+                printf("*");
+            }
+            printf("\n");
+    }
+    return 0;
+    }

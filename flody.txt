@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+    int rows, i, j, num;
+
+    printf("Enter the number of rows: ");
+    scanf("%d", &rows);
+
+    for (i = 1; i <= rows; i++) {
+        for (j = rows; j >= 1; j--) {
+            if (j > i) {
+                printf("   ");
+            } else if(num<=99) {
+                printf("%2d ", num);
+                num++;
+            }
+            else if(num<=999){
+                printf("%3d",num);
+                num++;
+            }
+            else{
+                printf("%4d",num);
+                num++;
+            }
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
