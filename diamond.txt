@@ -7,7 +7,7 @@
         for(n=1;n<=rows;n++){
             for(m=1;m<=rows-n;m++){
                 printf(" ");
-            }
+            }   
             for(p=1;p<2*(n-1);p++){
                 printf("*");
             }
