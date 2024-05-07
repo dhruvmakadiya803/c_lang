@@ -3,7 +3,6 @@
         int n,m,rows,p;
         printf("enter your number:");
         scanf("%d",&rows);
-        
         for(n=1;n<=rows;n++){
             for(m=1;m<=rows-n;m++){
                 printf(" ");
