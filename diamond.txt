@@ -1,5 +1,6 @@
 #include<stdio.h>
     int main(){
+      
         int n,m,rows,p;
         printf("enter your number:");
         scanf("%d",&rows);
