@@ -9,8 +9,7 @@
             }   
             for(p=1;p<2*(n-1);p++){
                 printf("*");
-            }
-            // rows--;
+        
             printf("\n");
         }
          for(n=rows;n>=1;n--){
