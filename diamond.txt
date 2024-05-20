@@ -19,6 +19,7 @@
             for(p=n;p<2*(n-1);p++){
                 printf("*");
             }
+            
             for(p=1;p<=n-1;p++){
                 printf("*");
             }
