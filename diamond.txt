@@ -12,6 +12,7 @@
         
             printf("\n");
         }
+        
          for(n=rows;n>=1;n--){
             for(m=1;m<=rows-n;m++){
                 printf(" ");
